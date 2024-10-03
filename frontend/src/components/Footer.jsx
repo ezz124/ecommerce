@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
             <img src={assets.logo} className='mb-5 w-32' alt="" />
             <p className='w-full md:w-2/3 text-gray-600'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorum, odit assumenda vitae libero voluptas. Placeat facere reiciendis natus quibusdam quasi labore eos aperiam ad sapiente? Aliquam sit laudantium aliquid. 
+            We offer you a unique shopping experience that suits your personal style. Enjoy the latest trends and pieces specially designed to highlight your unique beauty and taste. With elegant designs and high quality, we make every look a special moment. 
             </p>
         </div>
 
