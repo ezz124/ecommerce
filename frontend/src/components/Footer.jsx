@@ -1,5 +1,7 @@
 import React from 'react'
 import { assets } from '../assets/assets'
+
+
 const Footer = () => {
   return (
     <div>
@@ -29,13 +31,14 @@ const Footer = () => {
                         <li>abdalmoezabdelrady@gmail.com</li>
                     </ul>
                 </div>
-     
+                </div>
+
           <div>
                <hr />
                <p className='py-5 text-sm text-center'>Designed and developed by Ezz abdalrady @2024</p>
           </div>
 
-    </div>
+    
     </div>
   )
 }
