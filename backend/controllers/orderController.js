@@ -7,9 +7,16 @@ import userModel from "../models/userModel.js";
         
         const {userId, items , amount, address} = req.body;
 
+        const orderItems = items.map(item => ({
+          productId: item.productId,
+          quantity: item.quantity,
+          image: item.image,
+          size: item.size, // تأكد من تضمين الصورة
+      }));
+
         const orderData ={
             userId,
-            items,
+            items: orderItems,
             address,
             amount,
             paymentMethod:"COD",
